@@ -7,9 +7,39 @@
     <link rel="stylesheet" href="myStyles.css">
     
     <title>PLaying with CSS Columns</title>
+    <style>
+      article {
+        column-count: 3;
+        column-gap: 21px;
+      }
+      h1 {
+        text-align: center;
+        column-span: all;
+        
+      }
+      p {
+        margin-top: 0px;
+        margin-bottom: 12px;
+        
+      }
+      footer {
+        column-span: all;
+      }
+    </style>
   </head>  
   <body>
     <header><h1>Playing with CSS Columns</h1></header>
+    <article>
+      <header>
+        <h1>Breaking News!</h1>
+      </header>
+      <p>Breaking news, also known as a special report or news bulletin, is a current issue that broadcasters feel warrants the interruptionn of scheduled programming and/or current news in order to report its details. Its use is also assigned to the most significant story of the moment or a story that is being covered live. It could be a story that is simply of wid interest to viewrs and has little impact otherwise. Many times, breaking news is used after te news network has already reported on this story. When a story has not been reported on previously, the graphic and phrase "Just In" is sometimes used instead.</p>
+      <p>In early coverage of a breaking story,details are commonly sketchy, usually due to the limited information available at the time. For example, during the Sago Mine disaster, initial reports were that all twelve miner were found alive, but news organizations later found only one actually survived. </p>
+      <p>Another criticism has ben the diluting of the importance of breaking news by the need of 24-hour news chanels to fill time, applying the title to soft news stories of questionable importance and urgency, for example car chases. Others question whether the use of the term is exvessive, citing occasions when teh term is used even though scheduled programmin is not interrupted.</p>
+      <footer>
+        <em>Text courtesy of Wikipedia:http://en.wikipedia.org/wiki/breaking_news</em>
+      </footer>
+    </article>
     <p>Go back to the <a href="index.html">Home page</a></p>
     </body>
 </html>
