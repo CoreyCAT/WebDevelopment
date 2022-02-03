@@ -1,5 +1,7 @@
+
+
 body{
-    background-color:aliceblue;
+    background-color:cadetblue;
 }
 
 .sitetitle{
@@ -7,7 +9,7 @@ body{
     background-color: #dc143c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    text-align: center;
+    text-align: right;
 }
 
 /*navigation style*/
