@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="MyStyles.css">
+    <title>Workshop Quiz</title>
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>Workshop<h1>
+          </header>
+          <p>Complete the workshop quiz</p>
+          <ol>
+            <li>Your best friend form elementary school finds you on the Internet and says he wants to trade home page links. How do you put a link to his site at www.supercheapsuits.com/-billybob/ ?</li>
+            <li> What HTML would you use to make it possible for someone clicking the words "About the Authors" at the top of a page to skip down to a list of credits somewhere else on teh page?</li>
+            <li> If your email address si bon@soir.com, how would you make the text "goodnight greeting" into a link that people can click to compose and send you an email message?</li>
+            <li> What attribute can you add to an HTML element to turn it into an anchor?</li>
+            <li> How do you tell a browser that the link target document should be downloaded rather than loaded in the window?</li>
+            <li> When should you include http:// in a link?</li>
+            <li> What mail features can you use in a mailto link?</li>
+            <li> When is the best case to forse a link to open in a new window?</li>
+            <li> What pseudo-class do you use to syle visited links?</li>
+          </ol>
+          <img src=>
+          <p style="text-align: center;">
+            <a href="historyanswers.html">Check Your Ansers!</a>
+          </p>
+          </section>
+  </body>
+</html>
