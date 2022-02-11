@@ -24,9 +24,9 @@
             <li> When is the best case to forse a link to open in a new window?</li>
             <li> What pseudo-class do you use to syle visited links?</li>
           </ol>
-          <img src=>
+          <img src="QuizPhoto.png" alt="My Image" style="float:right;padding:12px;width:100px;height:80px;">
           <p style="text-align: center;">
-            <a href="historyanswers.html">Check Your Ansers!</a>
+            <a href="QuizAnswers.html">Check Your Ansers!</a>
           </p>
           </section>
   </body>
