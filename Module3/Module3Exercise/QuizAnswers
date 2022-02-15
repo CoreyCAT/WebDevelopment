@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="StyleSheet.css">
+  </head>
+   <body style="padding:10px;"
+         background="QuizAnswer.jfif">
+    <section>
+      <header>
+        <h1> Workshop Quiz Answers</h1>
+      </header>
+      <ol>
+        <li> Put the following on your page:&lta href="http://www.supercheapsuits.com/~billybob/"&gtBilly Bob's site&lta/&gt</li>
+        <li> Type this at the top of the page:&lta href="credits"&gtAbout the Authors&lt/a&gt
+          Type this at the beginning of the credits section:&ltanytag id="credits"&gt</li>
+        <li>Type the following on you web page: Send me a &lta href="mailto:bon@soir.com"&gtgoodnight greeting&lt/a&gt!
+        </li>
+        <li> The id attribute can be used on any HTML element as an anchor
+        </li>
+        <li>You use the pound sign (#) to link to a named ancor point on the page.
+        </li>
+        <li> Use te attribute "download" to tell the browser the link target should be downloaded
+        </li>
+        <li> You  should include the http:// and the rest of the FQDN when you are linkin gto a page outside the current site
+        </li>
+        <li>You must point to the email address the message is to . Optional values are "subject, body, cc, and bcc"
+        </li>
+        <li>Use the a:visited pseudo-class to style visited links.
+        </li>
+      </ol>
+
+        </section>
+        <a href="WorkshopQuiz.html">Back to Quiz!</a>
+
+  </body>
+</html>
