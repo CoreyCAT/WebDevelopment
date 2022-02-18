@@ -9,7 +9,7 @@ a{
 
 /* :link is a pseudo-class for the <a> tag */
 a:link {
-  color:#ECF0F1
+  color:#D35400
 }
 
 a:visited{
