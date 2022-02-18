@@ -1,5 +1,5 @@
 body{
-  background-color: Moccasin
+  background-color: #D35400
 }
 a{
   font-family: Didot;
@@ -9,7 +9,7 @@ a{
 
 /* :link is a pseudo-class for the <a> tag */
 a:link {
-  color:#D35400
+  color:#ECF0F1
 }
 
 a:visited{
