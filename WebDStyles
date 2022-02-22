@@ -27,3 +27,7 @@ a:active{
   color: pink
 }
 
+h1{ 
+background-color:#ECF0F1
+}
+
