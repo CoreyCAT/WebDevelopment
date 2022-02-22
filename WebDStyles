@@ -28,6 +28,6 @@ a:active{
 }
 
 h1{ 
-background-color:#ECF0F1
+background-color:#CC66FF;
 }
 
