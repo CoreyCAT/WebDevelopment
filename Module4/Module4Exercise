@@ -1,1 +1,92 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      div {
+        position: absolute;
+        width: 250px;
+        height: 100px;
+        border: 5px solid #000;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+      div#d1 {
+        background-color: red;
+        left: 50px;
+        top: 100px;
+        z-index: 1;
+      }
+      div#d2 {
+        background-color: red;
+        left: 350px;
+        top: 100px;
+        z-index: 2;
+      }
+      div#d3 {
+        background-color: red;
+        left: 650px;
+        top: 100px;
+        z-index: 3;
+      }
+      div#d4 {
+        background-color: red;
+        left: 950px;
+        top: 100px;
+        z-index: 4;
+      }
+      div#d5 {
+        background-color: red;
+        left: 50px;
+        top: 250px;
+        z-index 5;
+      }
+      div#d6 {
+        background-color: red;
+        left: 350px;
+        top: 250px;
+        z-index: 6;
+      }
+      div#d7 {
+        background-color: red;
+        left: 650px;
+        top: 250px;
+        z-index: 7;
+      }
+      div#d8 {
+        background-color: red;
+        left: 950px;
+        top: 250px;
+        z-index: 8;
+      }
+    </style>
+   </head>
+  <body>
+    <div id="d1">
+      DIV #1
+      <p> Empire Strikes Back is the best Star Wars Movie.</p>
+    </div>
+    <div id="d2">
+      DIV #2
+      <p style="padding:0px 10px 10px 10px;"> The "Newspaper Air Times"(Jordan 1's) might be my favorite pair of Jordans.</p>
+    </div>
+    <div id="d3">
+      DIV #3
+      <p style="padding:0px 10px 10px 10px;"> J.Cole > Kendrick</p>
+    </div>
+    <div id="d4">
+      DIV #4
+      <p> EVERYONE should watch Attack on Titan</p>
+    </div>
+    <div id="d5">DIV #5</div>
+    <div id="d6">DIV #6</div>
+    <div id="d7">DIV #7</div>
+    <div id="d8">DIV #8</div>
+    
+    
+    
+  </body>
+</html>
