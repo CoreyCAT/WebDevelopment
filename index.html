@@ -49,7 +49,7 @@
       display: inline;
     }
     nav li {
-      foat:inline ;
+      foat:left;
     }
     section {
       width: auto;
@@ -60,36 +60,37 @@
       text-decoration: none;
       font-weight: bold;
     }
-    .parent {
+    nav parent {
       display: block;
       position: relative;float: 
       left;line-height: 30px;
       border-right:#CCC 1px solid;
     }
-    .parent a{
+    nav parent a{
       margin: 10px;
       text-decoration:none;
     }
-    .parent:hover > ul {
+     nav parent:hover > ul {
       display:block;
       position:absolute;
     }
-    .child {
+    nav child {
       display: none;
     }
-    .child li {
+    nav child li {
       line-height: 30px;
       border-bottome:#CCC 1px solid;
       border-right:#CCC 1px solid;
       width:100%;
     }
-    ul{
-      list-style: none; 
+   nav ul{
+      list-style-type: none; 
       margin: 0;
       padding: 0px;
+      overflow: hidden;
       min-width:10cm;
     }
-    ul ul ul{
+    nav ul ul ul{
       left: 100%; 
       top: 0;
       margin-left:1px;
