@@ -1,0 +1,141 @@
+<DOCTYPE html>
+  <html lang="eng">
+    <head>
+      <meta charst="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="WebDStyles">
+      <title> Welcom to my page!</title>
+      <style>
+        #main {
+          display: grid;
+          grid-template-columns: 200px auto 125px;
+          grid-template-rows: auto;
+          grid-template-areas: 
+            "secondary_content main_content tertiary_content";
+        }
+        #main_content {
+          grid-are: main_content;
+          postiton: relative;
+          float: left;
+          background-color: #ffffff;
+          width: 100%;
+          margin-bottom: -2000px;
+          padding-bottom: 2000px;
+        }
+        footer {
+          background-color: #cccccc;
+          text-align:center;
+          display: table-cell;
+          font-style: italic;
+        }
+        #secondary_content {
+          grid-area: secondary_content;
+          background-color: #52f471;
+          position: relative;
+          float: left;
+          width: 200px;
+          right: 200px;
+          margin-left: -100%;
+          margin-bottom: -20000px;
+          padding-bottom: 2000px;
+          display: table-cell;
+        }
+        #tertiary_content {
+          grid-area: tertiary_content;
+          background-color: #f452d5;
+          position: relative;
+          float: left;
+          width: 125px;
+          margin-right: -125px;
+          margin-bottom: -2000px;
+          padding-bottom: 2000px;
+          display: table-cell;
+        }
+        #secondary_content ul {
+          list-style: none;
+          margin: 12px 0px 0px 12px;
+          padding: 0px
+        }
+        #secondary_content li a:link, #secondary_content li a:visited {
+          font-size: 12pt;
+          font-weight: bold;
+          padding:3px 0px 3px 3px;
+          color: #000000;
+          text-decoration: none;
+          display: block;
+        }
+        #secondary_content li a:hover, #secondary_content li a:active {
+          font-size: 12pt;
+          font-weight: bold;
+          padding: 3px 0px 3px 3px;
+          color: #ffffff;
+           tex-decoration: none;
+          display: block;
+        }
+        body { 
+        margin: 0;
+        padding: 0;
+        min-width: 525px;
+        }
+        header {
+          float: left;
+          width: 100%;
+        }
+        footer {
+          position: relative;
+          float: left;
+          width: 100%;
+          background-color: #cccccc;
+          text-align: center;
+          font-style: italic;
+        }
+        #main { 
+        float: left;
+        padding-left: 200px;
+        padding-right: 125px;
+        overflow: hidden;
+          width: 100%;
+          display: table;
+        }
+        h1 {
+          margin: 0;
+        }
+        #secondary_content ul {
+          list-style: none;
+          margin: 12px 0px 0px 12px;
+          padding 0px;
+        }
+        
+       
+      </style>
+    </head>
+
+    <body>
+      
+      <header>
+        <img src="acmeWidgetLLC.jpg" alt="ACME Widgets LLC">
+          </header>
+      <section id="main">
+        <article id="main_content">
+          <h1>Welcome to ACME Widgets!</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Nam tincidunt posuere malesuada. Suspendiesse ac felis ac ante tincidunt ullamcorper, Nulla vitae lgula vitae mi rhoncus dipiscing Etiam congue felis id ante semper at imperdiet massa tempr, Nullam hedrerit fermentum ligula, sit amet pellentesque purus faucibus in. Sed molestie lacus mauris, ultrices accumsan sem. Phasellus facilissi malesuada se nec ornare ipsum dictum consecteture.</p>
+          <p>Nulla libero nisl, consectutur eget accumasan vel , interdum vitae enim vitae null feugiat dignissm ut sit amet odio, Nunc non enim id sem faucibus congue. interger ac mi in justo euismod scdales. Aeneann imperdiet  vestibulum aucotre. Sed ullamcorper congue ipsum eget vulputate sem scelerisque in. Donec ornare vestibulum congue. Etiam sapien nulla, rutrum mattis ut pellentesqu eget augu. proin nisl mauris suscipit quis elemtum ac, vestibulum quie lacue. Ut eget justo vitae urna varius sodales.</p>
+        </article>
+        <aside id="secondary_content">
+          <ul>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Executive Team</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </aside>
+        <aside id="tertiary_content">
+          <p><strong>Who is the best wizard in each house?</strong></p>
+        </aside>
+      </section>
+      <footer>
+        Copyright information usually goes her in the footer
+      </footer>
+    </body>
+  </html>
