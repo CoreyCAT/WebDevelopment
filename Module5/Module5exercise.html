@@ -8,11 +8,13 @@
       <title> Welcom to my page!</title>
       <style>
         #main {
-          display: grid;
+          display: flex;
           grid-template-columns: 200px auto 125px;
           grid-template-rows: auto;
           grid-template-areas: 
             "secondary_content main_content tertiary_content";
+          width: 100%;
+          
         }
         #main_content {
           grid-are: main_content;
@@ -28,6 +30,7 @@
           text-align:center;
           display: table-cell;
           font-style: italic;
+          width: 100%
         }
         #secondary_content {
           grid-area: secondary_content;
@@ -40,6 +43,7 @@
           margin-bottom: -20000px;
           padding-bottom: 2000px;
           display: table-cell;
+          order: -1;
         }
         #tertiary_content {
           grid-area: tertiary_content;
