@@ -1,1 +1,32 @@
-
+<DOCTYPE html>
+  <html lang="eng">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="WebDStyles">
+      <title> Welcom to my page!</title>
+      <style>
+      #grad1 {
+      height: 75px;
+      width: 250px;
+      background-color: #CC66FF;
+      backgroung-image: linear-gradient(#D2691E, #CC66FF);
+      }
+      
+      div {
+      width: 250px;
+      height: 75px;
+      border: 5px solid pink;
+      color: #660066;
+      font-weight: bold;
+      text-align: center;
+      }
+      
+      </style>
+      </head>
+      <body background-image="grad1">
+      
+      <header>
+      </header>
+      </body>
